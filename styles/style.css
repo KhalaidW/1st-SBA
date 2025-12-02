@@ -46,11 +46,15 @@ a {
 }
 td,
 th {
-    border: 1px solid red;
+    border: 2px solid rgb(163, 94, 48);
+    background-color: rgb(238, 215, 184);
+}
+th {
+    background-color: rgb(216, 177, 105);
 }
 table {
-    border: 1px solid red;
+    border: 1px solid rgb(107, 76, 28);
     border-collapse: collapse;
-    width: 100%;
+    width: 40%;
     text-align: center;
 }
