@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/register.css">
 </head>
+
 <body>
-    <nav>
+    <!-- <nav>
         <h1><a href="../index.html">home</a></h1>
-        <h1><a href="../pages/page1.html">page 1</a></h1>
+        <h1><a href="../pages/login.html">Login</a></h1>
         <h1><a href="../pages/page2.html">page 2</a></h1>
-    </nav>
+    </nav> -->
+    <fieldset>
+        <form>
+            <h1>Register</h1>
+            <input type="text" name="Username" placeholder="Username"><br>
+            <input type="password" name="password" placeholder="Password"><br>
+            <input type="password" name="confirm_password" placeholder="Confirm Password"><br>
+            <label for="Pronouns">Pronouns</label>
+            <select name="Pronouns" id="Pronouns" style="margin: 1%;">
+                <option value="They/Them">They/Them</option>
+                <option value="He/Him">He/Him</option>
+                <option value="She/Her">She/Her</option>
+            </select>
+            <p>What Are You?</p>
+            <input type="radio" name="Capcha" id="A_Bot" class="Capcha">
+            <label for="A_Bot">Bot</label>
+            <input type="radio" name="Capcha" id="A_Human" class="Capcha">
+            <label for="A_Human">Human</label>
+            <input type="radio" name="Capcha" id="A_Duck" class="Capcha">
+            <label for="A_Duck">Duck</label><br>
+            <input type="submit" value="Register" id="submit" style="width: 170px; background-color: rgb(120, 211, 181);height: 40px;" >
+            <h3><a href="./login.html">Login</a></h3>
+            <h3><a href="../index.html">Home</a></h3>
+
+        </form>
+
+    </fieldset>
 </body>
+
 </html>

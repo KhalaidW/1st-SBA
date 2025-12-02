@@ -4,4 +4,34 @@ body {
     padding: 0;
     height: 100%;
     box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 6px 10px 10px 1px rgba(0, 0, 0, 0.481);
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+input {
+    text-align: center;
+    margin: 1%;
+    height: 30px;
+    border: none;
+    background-color: rgb(247, 211, 165);
+}
+a {
+    text-decoration: none;
+    color: brown;
 }
